@@ -5,8 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.aj.blog</groupId>
-    <artifactId>free-personalblog</artifactId>
+    <artifactId>freepersonalblog</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>freepersonalblog-web</module>
+        <module>freepersonalblog-service</module>
+        <module>freepersonalblog-dao</module>
+        <module>freepersonalblog-entity</module>
+    </modules>
 
 
 </project>
